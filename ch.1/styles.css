@@ -1,0 +1,71 @@
+/* 
+Author: Elizabeth V
+Date: Sep. 15, 2024
+File Name: styles.css
+*/
+
+/* CSS Reset */
+body, header, nav, footer, img, h1 {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    background-color: #f6eee4;
+}
+header{
+    text-align: center;
+}
+/* Styles rule for images */
+img {
+    max-width: 90%;
+    display: block;
+}
+
+/* Style rules for navigation area */
+nav {
+    background-color: #9fb9f9;
+    text-align: center;
+    font-size: 2em;
+}
+
+/* Style rules for main content */
+main {
+    main {
+        padding: 2%;
+        font-family: Verdana, Areial, sans-serif;
+        
+    }
+    .columns{
+        float: left;
+        width: 50%;
+        background-color: #f6eee4;
+    }
+    .row{
+        float: right;
+        width: 50%;
+        background-color: #f6eee4;
+    }
+    .columns2{
+        float: left;
+        width: 80%;
+    }
+    .row2{
+        float: right;
+        width: 20%;
+    }
+
+}
+
+/* Style rules for footer content */
+footer{
+    font-size: 0.85em;
+    background-color: #2a1f14;
+    color: #f6eee4;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    padding-left: 0%;
+    padding-right: 0%;
+}
+footer a {
+    color: #f3e6d8;
+    text-decoration: none;
+}
